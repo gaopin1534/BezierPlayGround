@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1705920A21AD7FD50008E832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705920921AD7FD50008E832 /* AppDelegate.swift */; };
-		1705920C21AD7FD50008E832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705920B21AD7FD50008E832 /* ViewController.swift */; };
+		1705920C21AD7FD50008E832 /* PlayGroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705920B21AD7FD50008E832 /* PlayGroundViewController.swift */; };
 		1705920F21AD7FD50008E832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1705920D21AD7FD50008E832 /* Main.storyboard */; };
 		1705921121AD7FD60008E832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1705921021AD7FD60008E832 /* Assets.xcassets */; };
 		1705921421AD7FD60008E832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1705921221AD7FD60008E832 /* LaunchScreen.storyboard */; };
 		1705921F21AD7FD60008E832 /* BezierPlayGroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705921E21AD7FD60008E832 /* BezierPlayGroundTests.swift */; };
 		1705922A21AD7FD60008E832 /* BezierPlayGroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705922921AD7FD60008E832 /* BezierPlayGroundUITests.swift */; };
+		1705923C21AD83DA0008E832 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705923B21AD83DA0008E832 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		1705920621AD7FD50008E832 /* BezierPlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierPlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1705920921AD7FD50008E832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1705920B21AD7FD50008E832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1705920B21AD7FD50008E832 /* PlayGroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGroundViewController.swift; sourceTree = "<group>"; };
 		1705920E21AD7FD50008E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1705921021AD7FD60008E832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1705921321AD7FD60008E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		1705922521AD7FD60008E832 /* BezierPlayGroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPlayGroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1705922921AD7FD60008E832 /* BezierPlayGroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPlayGroundUITests.swift; sourceTree = "<group>"; };
 		1705922B21AD7FD60008E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1705923B21AD83DA0008E832 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				1705920921AD7FD50008E832 /* AppDelegate.swift */,
-				1705920B21AD7FD50008E832 /* ViewController.swift */,
+				1705920B21AD7FD50008E832 /* PlayGroundViewController.swift */,
+				1705923A21AD83C70008E832 /* View */,
 				1705920D21AD7FD50008E832 /* Main.storyboard */,
 				1705921021AD7FD60008E832 /* Assets.xcassets */,
 				1705921221AD7FD60008E832 /* LaunchScreen.storyboard */,
@@ -123,6 +126,14 @@
 				1705922B21AD7FD60008E832 /* Info.plist */,
 			);
 			path = BezierPlayGroundUITests;
+			sourceTree = "<group>";
+		};
+		1705923A21AD83C70008E832 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1705923B21AD83DA0008E832 /* CanvasView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1705920C21AD7FD50008E832 /* ViewController.swift in Sources */,
+				1705920C21AD7FD50008E832 /* PlayGroundViewController.swift in Sources */,
 				1705920A21AD7FD50008E832 /* AppDelegate.swift in Sources */,
+				1705923C21AD83DA0008E832 /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

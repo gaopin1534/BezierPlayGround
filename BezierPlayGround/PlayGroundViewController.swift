@@ -8,10 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PlayGroundViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let screenWidth = self.view.bounds.width
+        let screenHeight = self.view.bounds.height
+        
+        let testDraw = CanvasView(frame: CGRect(x: 0, y: 0,
+                                              width: screenWidth, height: screenHeight))
+        self.view.addSubview(testDraw)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
