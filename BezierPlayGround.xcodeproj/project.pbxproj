@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1705920A21AD7FD50008E832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705920921AD7FD50008E832 /* AppDelegate.swift */; };
+		1705920C21AD7FD50008E832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705920B21AD7FD50008E832 /* ViewController.swift */; };
+		1705920F21AD7FD50008E832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1705920D21AD7FD50008E832 /* Main.storyboard */; };
+		1705921121AD7FD60008E832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1705921021AD7FD60008E832 /* Assets.xcassets */; };
+		1705921421AD7FD60008E832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1705921221AD7FD60008E832 /* LaunchScreen.storyboard */; };
+		1705921F21AD7FD60008E832 /* BezierPlayGroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705921E21AD7FD60008E832 /* BezierPlayGroundTests.swift */; };
+		1705922A21AD7FD60008E832 /* BezierPlayGroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705922921AD7FD60008E832 /* BezierPlayGroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1705921B21AD7FD60008E832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170591FE21AD7FD50008E832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1705920521AD7FD50008E832;
+			remoteInfo = BezierPlayGround;
+		};
+		1705922621AD7FD60008E832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170591FE21AD7FD50008E832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1705920521AD7FD50008E832;
+			remoteInfo = BezierPlayGround;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1705920621AD7FD50008E832 /* BezierPlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierPlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1705920921AD7FD50008E832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1705920B21AD7FD50008E832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1705920E21AD7FD50008E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1705921021AD7FD60008E832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1705921321AD7FD60008E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1705921521AD7FD60008E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1705921A21AD7FD60008E832 /* BezierPlayGroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPlayGroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1705921E21AD7FD60008E832 /* BezierPlayGroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPlayGroundTests.swift; sourceTree = "<group>"; };
+		1705922021AD7FD60008E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1705922521AD7FD60008E832 /* BezierPlayGroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierPlayGroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1705922921AD7FD60008E832 /* BezierPlayGroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPlayGroundUITests.swift; sourceTree = "<group>"; };
+		1705922B21AD7FD60008E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1705920321AD7FD50008E832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705921721AD7FD60008E832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705922221AD7FD60008E832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170591FD21AD7FD50008E832 = {
+			isa = PBXGroup;
+			children = (
+				1705920821AD7FD50008E832 /* BezierPlayGround */,
+				1705921D21AD7FD60008E832 /* BezierPlayGroundTests */,
+				1705922821AD7FD60008E832 /* BezierPlayGroundUITests */,
+				1705920721AD7FD50008E832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1705920721AD7FD50008E832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1705920621AD7FD50008E832 /* BezierPlayGround.app */,
+				1705921A21AD7FD60008E832 /* BezierPlayGroundTests.xctest */,
+				1705922521AD7FD60008E832 /* BezierPlayGroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1705920821AD7FD50008E832 /* BezierPlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				1705920921AD7FD50008E832 /* AppDelegate.swift */,
+				1705920B21AD7FD50008E832 /* ViewController.swift */,
+				1705920D21AD7FD50008E832 /* Main.storyboard */,
+				1705921021AD7FD60008E832 /* Assets.xcassets */,
+				1705921221AD7FD60008E832 /* LaunchScreen.storyboard */,
+				1705921521AD7FD60008E832 /* Info.plist */,
+			);
+			path = BezierPlayGround;
+			sourceTree = "<group>";
+		};
+		1705921D21AD7FD60008E832 /* BezierPlayGroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				1705921E21AD7FD60008E832 /* BezierPlayGroundTests.swift */,
+				1705922021AD7FD60008E832 /* Info.plist */,
+			);
+			path = BezierPlayGroundTests;
+			sourceTree = "<group>";
+		};
+		1705922821AD7FD60008E832 /* BezierPlayGroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1705922921AD7FD60008E832 /* BezierPlayGroundUITests.swift */,
+				1705922B21AD7FD60008E832 /* Info.plist */,
+			);
+			path = BezierPlayGroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1705920521AD7FD50008E832 /* BezierPlayGround */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1705922E21AD7FD60008E832 /* Build configuration list for PBXNativeTarget "BezierPlayGround" */;
+			buildPhases = (
+				1705920221AD7FD50008E832 /* Sources */,
+				1705920321AD7FD50008E832 /* Frameworks */,
+				1705920421AD7FD50008E832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierPlayGround;
+			productName = BezierPlayGround;
+			productReference = 1705920621AD7FD50008E832 /* BezierPlayGround.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1705921921AD7FD60008E832 /* BezierPlayGroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1705923121AD7FD60008E832 /* Build configuration list for PBXNativeTarget "BezierPlayGroundTests" */;
+			buildPhases = (
+				1705921621AD7FD60008E832 /* Sources */,
+				1705921721AD7FD60008E832 /* Frameworks */,
+				1705921821AD7FD60008E832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1705921C21AD7FD60008E832 /* PBXTargetDependency */,
+			);
+			name = BezierPlayGroundTests;
+			productName = BezierPlayGroundTests;
+			productReference = 1705921A21AD7FD60008E832 /* BezierPlayGroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1705922421AD7FD60008E832 /* BezierPlayGroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1705923421AD7FD60008E832 /* Build configuration list for PBXNativeTarget "BezierPlayGroundUITests" */;
+			buildPhases = (
+				1705922121AD7FD60008E832 /* Sources */,
+				1705922221AD7FD60008E832 /* Frameworks */,
+				1705922321AD7FD60008E832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1705922721AD7FD60008E832 /* PBXTargetDependency */,
+			);
+			name = BezierPlayGroundUITests;
+			productName = BezierPlayGroundUITests;
+			productReference = 1705922521AD7FD60008E832 /* BezierPlayGroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170591FE21AD7FD50008E832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "高松　幸平";
+				TargetAttributes = {
+					1705920521AD7FD50008E832 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1705921921AD7FD60008E832 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1705920521AD7FD50008E832;
+					};
+					1705922421AD7FD60008E832 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1705920521AD7FD50008E832;
+					};
+				};
+			};
+			buildConfigurationList = 1705920121AD7FD50008E832 /* Build configuration list for PBXProject "BezierPlayGround" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170591FD21AD7FD50008E832;
+			productRefGroup = 1705920721AD7FD50008E832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1705920521AD7FD50008E832 /* BezierPlayGround */,
+				1705921921AD7FD60008E832 /* BezierPlayGroundTests */,
+				1705922421AD7FD60008E832 /* BezierPlayGroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1705920421AD7FD50008E832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1705921421AD7FD60008E832 /* LaunchScreen.storyboard in Resources */,
+				1705921121AD7FD60008E832 /* Assets.xcassets in Resources */,
+				1705920F21AD7FD50008E832 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705921821AD7FD60008E832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705922321AD7FD60008E832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1705920221AD7FD50008E832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1705920C21AD7FD50008E832 /* ViewController.swift in Sources */,
+				1705920A21AD7FD50008E832 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705921621AD7FD60008E832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1705921F21AD7FD60008E832 /* BezierPlayGroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705922121AD7FD60008E832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1705922A21AD7FD60008E832 /* BezierPlayGroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1705921C21AD7FD60008E832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1705920521AD7FD50008E832 /* BezierPlayGround */;
+			targetProxy = 1705921B21AD7FD60008E832 /* PBXContainerItemProxy */;
+		};
+		1705922721AD7FD60008E832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1705920521AD7FD50008E832 /* BezierPlayGround */;
+			targetProxy = 1705922621AD7FD60008E832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1705920D21AD7FD50008E832 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1705920E21AD7FD50008E832 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1705921221AD7FD60008E832 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1705921321AD7FD60008E832 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1705922C21AD7FD60008E832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1705922D21AD7FD60008E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1705922F21AD7FD60008E832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BezierPlayGround/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaopin1534.BezierPlayGround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1705923021AD7FD60008E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BezierPlayGround/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaopin1534.BezierPlayGround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1705923221AD7FD60008E832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BezierPlayGroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaopin1534.BezierPlayGroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierPlayGround.app/BezierPlayGround";
+			};
+			name = Debug;
+		};
+		1705923321AD7FD60008E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BezierPlayGroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaopin1534.BezierPlayGroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierPlayGround.app/BezierPlayGround";
+			};
+			name = Release;
+		};
+		1705923521AD7FD60008E832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BezierPlayGroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaopin1534.BezierPlayGroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BezierPlayGround;
+			};
+			name = Debug;
+		};
+		1705923621AD7FD60008E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BezierPlayGroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaopin1534.BezierPlayGroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BezierPlayGround;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1705920121AD7FD50008E832 /* Build configuration list for PBXProject "BezierPlayGround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1705922C21AD7FD60008E832 /* Debug */,
+				1705922D21AD7FD60008E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1705922E21AD7FD60008E832 /* Build configuration list for PBXNativeTarget "BezierPlayGround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1705922F21AD7FD60008E832 /* Debug */,
+				1705923021AD7FD60008E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1705923121AD7FD60008E832 /* Build configuration list for PBXNativeTarget "BezierPlayGroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1705923221AD7FD60008E832 /* Debug */,
+				1705923321AD7FD60008E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1705923421AD7FD60008E832 /* Build configuration list for PBXNativeTarget "BezierPlayGroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1705923521AD7FD60008E832 /* Debug */,
+				1705923621AD7FD60008E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170591FE21AD7FD50008E832 /* Project object */;
+}
